@@ -1,0 +1,125 @@
+
+
+1.	Alogarithm
+
+		gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2
+
+		1. hukum II Newton dirumuskan sebagai berikut: ΣF = m x a
+		2. m = massa benda (kg)
+		3. a = percepatan benda (m/s2)
+		4. m = 600kg dan a= 2 m/s2
+		5. ΣF = 600 x 2
+		6. simpan hasil sebagai ΣF
+		7. tampilkan ΣF
+
+
+	Pseudocode
+
+		STORE 'm' with 600
+		STORE 'a' with 2 
+		STORE 'ΣF' without any value
+
+		CALCULATE "m" times "a"
+		SET "ΣF" value with calculation result
+
+		DISPLAY "ΣF"
+
+
+2.	Alogarithm
+
+		Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+		Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
+		Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+		1. Masukan tahun
+		2. tahun habis di bagi 4
+		3. tidak habis di bagi 100
+		4. habis di bagi 100
+		5. habis di bagi 400
+		6. jika nilai sesuai lanjut ke langkah 7 jika tidak ke langkah 8
+		7. tampilkan kabisat
+		8. tampilkan bukan kabisat
+
+
+
+
+	Pseudocode
+
+		STORE 'tahun' with null
+		STORE 'a' with null
+		STORE 'b' with null
+		STORE 'c' with null
+		
+		CALCULATE 'tahun' mod 4
+			SET 'a' value with calculation result
+		CALCULATE "tahun' mod 100
+			SET 'b' value with calculation result
+		CALCULATE 'tahun' mod 400
+			SET 'c' value with calculation result
+
+		if 'a' equal 0 && 'b' not equal 0
+			if else 'a' equal 0 && 'b' equal 0 && 'c' equal 0
+				Display "KABISAT"
+		else
+			DISPLAY "BUKAN KABISAT"
+
+
+
+3. 	Alogarithm
+
+		Foxie akan mencuci pakaiannya menggunakan mesin cuci. Pakaian yang akan dicuci oleh Foxie sebanyak 20 dan akan dimasukkan ke mesin cuci. Mesin cuci akan dinyalakan jika semua pakaian Foxie sudah masuk ke mesin cuci.
+
+
+		1. jumlah pakaian 20
+		2. ambil 1 pakaian
+		3. masukan ke mesin cuci
+		4. jika masih ada pakaian tersisa kembali ke langkah 2 jika tidak ke langkah 5
+		5. nyalakan mesin cuci
+
+
+	Pseudocode
+
+		STORE 'pakaian' with 0
+		
+		if 'pakaian' < 20
+			CALCULATE 'pakaian' add 1
+				SET 'pakaian' value with calculation result
+		else
+			DISPLAY "Mesin cuci menyala"
+
+
+	ATAU
+
+		STORE "pakaian" with 0
+
+		WHILE "pakaian" < 20
+  			ADD "pakaian" by 1
+
+		DISPLAY "Mesin cuci menyala"
+
+
+4.	Alogarithm
+		
+		Seorang guru akan memeriksa kuku siswa-siswinya yang sebanyak 40 orang dengan cara berkeliling kelas. Jika guru menemukan siswa/siswi yang memiliki kuku yang panjang maka guru akan menghukum siswa/siswi tersebut, jika tidak guru akan memuji siswa/siswi tersebut.
+
+		1. jumlah siswa 40
+		2. periksa 1 siswa
+		4. jika kuku panjang lanjut ke langkah 5 jika tidak lanjut ke langkah 6 
+		5. hukum siswa
+		6. puji siswa
+
+	Pseudocode
+
+		STORE "siswa" to 40
+		STORE "panjang kuku" with true
+
+		WHILE "siswa" > 0
+			DO
+			  IF "panjang kuku" equals to false
+			    DISPLAY "keluar kau!!"
+			  ELSE
+			    DISPLAY "bagus"
+	
+
+
+
