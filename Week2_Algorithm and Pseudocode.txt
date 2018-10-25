@@ -79,16 +79,6 @@
 
 	Pseudocode
 
-		STORE 'pakaian' with 0
-		
-		if 'pakaian' < 20
-			CALCULATE 'pakaian' add 1
-				SET 'pakaian' value with calculation result
-		else
-			DISPLAY "Mesin cuci menyala"
-
-
-	ATAU
 
 		STORE "pakaian" with 0
 
@@ -119,6 +109,8 @@
 			    DISPLAY "keluar kau!!"
 			  ELSE
 			    DISPLAY "bagus"
+			    
+			siswa--
 	
 
 
